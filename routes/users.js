@@ -1,7 +1,3 @@
-const router = require('express').Router();
-
-router.get('/start', (req,res) => {
-    res.send('Route crested successfully')
-});
+const router = require("express").Router();
 
 module.exports = router;
